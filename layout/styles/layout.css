@@ -33,12 +33,22 @@ File: Layout CSS
 #topbar i{margin:0 5px 0 0; line-height:normal;}
 #topbar a i{margin-right:0;}
 
+/* Navigator
+--------------------------------------------------------------------------------------------------------------- */
+#navi{
+	background-color:#333333;
+	position: fixed;
+	
+}
+
+
 
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
+
 #header{}
 
-#header #logo{margin:30px 0 0 0;}
+#header #logo{margin:20px 0 0 0;}
 #header #logo h1{margin:0; padding:0; font-size:22px; text-transform:uppercase;}
 
 
@@ -364,8 +374,8 @@ table a, #comments a{background-color:inherit;}
 
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
-@media screen and (min-width:978px){
-	.hoc{max-width:978px;}
+@media screen and (min-width:1000px){
+	.hoc{max-width:1000px;}
 }
 
 
